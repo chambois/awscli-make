@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM node:8.11.1-alpine
 
 RUN apk --update add \
     python \
